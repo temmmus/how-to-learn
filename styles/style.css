@@ -5,10 +5,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-h1, h2, h3, p {
-  margin: 0;
-}
-
 /* Шапка сайта, блок header */
 .header {
   height: 100vh;
@@ -38,9 +34,6 @@ h1, h2, h3, p {
   margin-left: 64px;
   display: flex;
   align-items: center;
-}
-
-.header__title h1{
   font-size: 102px;
   font-weight: 700;
   line-height: 96px;
@@ -52,9 +45,6 @@ h1, h2, h3, p {
   position: absolute;
   bottom: 30px;
   left: 64px;
-}
-
-.header__subtitle p {
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;
@@ -126,7 +116,6 @@ h1, h2, h3, p {
 
 /* Секция, блок digits */
 .digits {
-  border: 1px dashed blue;
   padding-bottom: 100px;
   display: flex;
   flex-direction: column;
@@ -136,6 +125,7 @@ h1, h2, h3, p {
 
 .section-title {
   width: 60%;
+  margin: 0;
   display: flex;
   justify-content: center;
   line-height: 1.15;
@@ -146,6 +136,7 @@ h1, h2, h3, p {
 
 .section-subtitle {
   width: 60%;
+  margin: 0;
   margin-top: 20px;
   display: flex;
   justify-content: center;
@@ -166,6 +157,7 @@ h1, h2, h3, p {
 }
 
 .table__heading {
+  margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: 700;
@@ -173,34 +165,40 @@ h1, h2, h3, p {
 }
 
 .table__text {
+  margin: 0;
   line-height: 1.2;
   font-size: 18px;
-}
-
-.table__text p {
   margin-top: 20px;
 }
 
+
 /* Секция, блок feynman? */
 .feynman {
+  min-height: 787px;
   position: relative;
-  border: 1px dashed red;
+  padding-top: 100px;
+  background-color: #f2f2f2;
 }
 
 .feynman__title {
-  border: 1px dashed blue;
-  margin-top: 100px;
   width: 648px;
+  position: relative;
+  margin: auto;
+  text-align: center;
   line-height: 1.15;
   font-size: 120px;
   font-weight: 700;
+  z-index: 2;
 }
 
 .feynman__subtitle {
-  border: 1px dashed blue;
+  margin: auto;
+  position: relative;
+  text-align: center;
   margin-top: 70px;
   line-height: 51px;
   font-size: 36px;  
+  z-index: 2;
 }
 
 .feynman__link {
@@ -214,10 +212,10 @@ h1, h2, h3, p {
 }
 
 .feynman__illustration {
-  border: 1px dashed blue;
   width: 867px;
   height: 637px;
-  background-image: url('../images/feynman.png');
-  background-size: contain;
-  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
 }
