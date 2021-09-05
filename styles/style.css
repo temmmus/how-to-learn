@@ -98,7 +98,7 @@
 }
 
 .two-columns__main-text {
-  width: 80%; 
+  width: 80%;
   min-width: 784px;
 }
 
@@ -195,7 +195,7 @@
   text-align: center;
   margin-top: 70px;
   line-height: 51px;
-  font-size: 36px;  
+  font-size: 36px;
   z-index: 2;
 }
 
@@ -230,7 +230,7 @@
   align-items: center;
   justify-content: space-between;
   background-color: #1f1f1f;
-  color: #ffffff
+  color: #ffffff;
 }
 
 .section-title_theme_dark {
@@ -289,15 +289,13 @@
 .footer__column_content_info {
 }
 
-.footer__column-heading {
-  margin: 0;
-}
 
 .footer__column_content_social {
 }
 
 
 .footer__column-heading {
+  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: 700;
