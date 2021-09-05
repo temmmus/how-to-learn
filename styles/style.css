@@ -18,7 +18,6 @@
 .logo {
   width: 183px;
   height: 32px;
-  background-image: url(../images/logo_place_header.svg);
   background-size: contain;
   background-repeat: no-repeat;
   z-index: 2;
@@ -260,8 +259,6 @@
 }
 
 .logo__place_footer {
-  height: 35px;
-  width: 183px;
 }
 
 .footer__author {
