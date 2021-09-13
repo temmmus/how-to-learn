@@ -40,7 +40,7 @@
 @import url(../blocks/feynman/__title/feynman__title.css);
 
 @import url(../blocks/kaufman/kaufman.css);
-@import url(../blocks/feynman/__triangle/kaufman__triangle.css);
+@import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__author/footer__author.css);
@@ -51,3 +51,5 @@
 @import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
+
+@import url(../blocks/rotation/rotation.css);
