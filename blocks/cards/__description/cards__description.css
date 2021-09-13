@@ -1,0 +1,5 @@
+.cards__description {
+    border: 1px dashed red;
+    line-height: 23px;
+    font-size: 18px;
+}
