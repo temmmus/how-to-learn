@@ -1,5 +1,10 @@
 .cards__item {
-    border: 1px dashed green;
     margin-top: 60px;
-    margin-left: 100px;
+    margin-right: 100px;
+    width: 240px;
 }
+
+.cards__item:nth-child(3) {
+    margin-right: 0;
+}
+
