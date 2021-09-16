@@ -4,7 +4,6 @@
   <meta charset='UTF-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
   <meta name=author content='temmmus'>
-  <link rel='stylesheet' href='./vendor/normalize.css'>
   <link rel='stylesheet' href='pages/index.css'>
   <title>Научиться учиться</title>
 </head>
@@ -15,7 +14,7 @@
       <img class='logo logo_place_header' src='./images/logo_place_header.svg' alt='изображение'>
       <h1 class='header__title'>Научиться учиться</h1>
       <p class='header__subtitle'>Какие современные и эффективне подходы к обучению вы можете использовать в своей жизни?
-        <a class='header__link' href='#'>Узанать &rarr;</a>
+        <a class='header__link' href='#' target='_blank'>Узанать &rarr;</a>
       </p>
       <img class='header__main-illustration' src='./images/header-image.png' alt='изображение'>
       <div class='header__square-pic rotation'></div>
@@ -42,33 +41,33 @@
       <section class='techniques'>
         <h2 class='section-title'>Техники обучения</h2>
         <p class='section-subtitle'>Пять практик от Барбары Оакли</p>
-        <div class='cards'>
-          <div class='cards__item'>
+        <ul class='cards'>
+          <li class='cards__item'>
             <img src='./images/cards-attention.png' alt='изображение' class='cards__image'>
             <h3 class='cards__title'>Два вида внимания</h3>
             <p class='cards__description'>Глубокие знания возникают, если чередовать сфокусированное и рассеяное мышление.</p>
-          </div>
-          <div class='cards__item'>
+          </li>
+          <li class='cards__item'>
             <img src='./images/cards-recall.png' alt='изображение' class='cards__image'>
             <h3 class='cards__title'>Recall</h3>
             <p class='cards__description'>Вспоминайте изученное – это позволит соединить разрозненные порции памяти.</p>
-          </div>
-          <div class='cards__item'>
+          </li>
+          <li class='cards__item'>
             <img src='./images/cards-interliving.png' alt='изображение' class='cards__image'>
             <h3 class='cards__title'>Интерливинг</h3>
             <p class='cards__description'>Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
-          </div>
-          <div class='cards__item'>
+          </li>
+          <li class='cards__item'>
             <img src='./images/cards-question.png' alt='изображение' class='cards__image'>
             <h3 class='cards__title'>Вопросы</h3>
             <p class='cards__description'>Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
-          </div>
-          <div class='cards__item'>
+          </li>
+          <li class='cards__item'>
             <img src='./images/cards-competence.png' alt='изображение' class='cards__image'>
             <h3 class='cards__title'>Иллюзия компетентности</h3>
             <p class='cards__description'>Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
-          </div>
-        </div>
+          </li>
+        </ul>
       </section>
        
       <section class='video'>
@@ -206,17 +205,33 @@
             <p class='table__text'>Уделяйте внимание количеству и скорости.</p>
           </div>
         </div>
-        <img class='kaufman__triangle rotation' src='./images/kaufman-triangle.svg' alt='изображение'>
+        <div class='kaufman__triangle rotation'></div>
       </section>
 
       <section class='resources'>
         <h2 class='section-title'>Полезные ресурсы</h2>
         <p class='section-subtitle'>Больше материалов о техниках и лайфхаках обучения</p>
         <ul class='resources__logo-zone'>
-          <li><img class='resources__logo' src='./images/resources-arzamas.svg' alt='изображение'></li>
-          <li><img class='resources__logo' src='./images/resources-n1.svg' alt='изображение'></li>
-          <li><img class='resources__logo' src='./images/resources-strelka.svg' alt='изображение'></li>
-          <li><img class='resources__logo' src='./images/resources-polka.svg' alt='изображение'></li>
+          <li>
+            <a class='resources__link' href='https://arzamas.academy/' target='_blank'>
+              <img class='resources__logo' src='./images/resources-arzamas.svg' alt='изображение'>
+            </a>
+          </li>
+          <li>
+            <a class='resources__link' href='https://nplus1.ru/' target='_blank'>
+              <img class='resources__logo' src='./images/resources-n1.svg' alt='изображение'>
+            </a>
+          </li>
+          <li>
+            <a class='resources__link' href='https://strelka.com/' target='_blank'>
+              <img class='resources__logo' src='./images/resources-strelka.svg' alt='изображение'>
+            </a>
+          </li>
+          <li>
+            <a class='resources__link' href='https://polka.academy/' target='_blank'>
+              <img class='resources__logo' src='./images/resources-polka.svg' alt='изображение'>
+            </a>
+          </li>
         </ul>
       </section>
     </main>
@@ -225,6 +240,7 @@
       <div class='footer__columns'>
         <div class='footer__column footer__column_content_copyright'>
           <img class='logo logo_place_footer' src='./images/logo_place_footer.svg' alt='изображение'>
+          <p class='footer__author'>&copy; 2021. temmmus</p>
         </div>
         <nav class='footer__column footer__column_content_info'>
           <h3 class='footer__column-heading'>О Практикуме</h3>
@@ -258,7 +274,7 @@
           </ul>
         </div>
       </div>
-      <p class='footer__author'>&copy; 2021. temmmus</p>
+
     </footer>
   </div>
 </body>
