@@ -1,6 +1,6 @@
-@import url(../blocks/root/root.css);
-
 @import url(../vendor/normalize.css);
+
+@import url(../blocks/root/root.css);
 
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
@@ -35,7 +35,7 @@
 @import url(../blocks/section-title/_theme/section-title_theme_dark.css);
 
 @import url(../blocks/section-subtitle/section-subtitle.css);
-@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_darke.css);
+@import url(../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css);
 
 @import url(../blocks/two-columns/two-columns.css);
 @import url(../blocks/two-columns/__brief/two-columns__brief.css);
